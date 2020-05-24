@@ -1,11 +1,10 @@
-# Welcome!
-
-This Swift template lets you get started quickly with a simple one-page playground.
-
-```swift runnable
-print("Hello World!")
-```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Swift template](https://tech.io/select-repo/575)
+struct student{
+    var name:String
+    var rollno:Int
+    var class_:Int
+    func classdetail(){
+        print("\(name) of class \(class_) have rollno is \(rollno) ")
+    }
+}
+var student1 = student(name:"gaurav singh",rollno:14,class_:12)
+student1.classdetail()
